@@ -1,0 +1,221 @@
+//banner 轮播
+.bannerSwiper {
+    .swiper-slide {
+        height: 200px;
+        margin: 0 auto;
+        overflow: hidden;
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        div {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 200px;
+            width: 100%;
+            z-index: 1;
+            -moz-background-size: cover;
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: 20px;
+        .swiper-pagination-bullet {
+            margin: 0 12px;
+        }
+    }
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        background: rgba(255, 255, 255, 0);
+        border: 2px solid rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background: rgba(255, 255, 255, 1);
+    }
+}
+
+//藏品赏析
+.collection{
+    .collection-body{
+        .view {
+            color: #389c38;
+        }
+        .h1-title b {
+            background: #389c38;
+        }
+    }
+    .gallery-top {
+        width: 95%;
+        margin: 0 auto;
+        .swiper-slide {
+            div.bgimg {
+                height: 190px;
+                width: 100%;
+                z-index: 1;
+                -moz-background-size: cover;
+                background-size: cover;
+                background-position: top;
+                background-repeat: no-repeat;
+            }
+            .right {
+                width: 100%;
+                box-sizing: border-box;
+                h2 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgba(51, 51, 51, 1);
+                    text-align: justify;
+                    padding-top: 10px;
+                }
+                .text {
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: rgba(153, 153, 153, 1);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 5;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+        .swiper-button-next, .swiper-button-prev {
+            width: 20px;
+            height: 20px;
+            background-size: 20px 20px;
+            top: 221px;
+        }
+        .swiper-button-prev {
+            background-image: url(../images/Collection_perv.png);
+            left: auto;
+            right: 25px;
+        }
+        .swiper-button-next {
+            left: auto;
+            right: 0;
+            background-image: url(../images/Collection_next.png);
+        }
+    }
+}
+
+//活动发布，参观指南
+.activeAndGuide {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    .h1-title b {
+        background: #f6ac2b;
+    }
+    .view{
+        color: #F6AC2B;
+    }
+    .activeSwiperWra {
+        .swiper-pagination-bullets {
+            text-align: right;
+            padding-right: 25px;
+            bottom: 3px;
+        }
+        .swiper-pagination-bullet-active {
+            background: #ffffff;
+        }
+        .activeSwiper {
+            width: 95%;
+            margin: 0 auto;
+            height: 150px;
+        }
+        .active-wrapper {
+            .left {
+                width: 50%;
+                height: 150px;
+                -webkit-background-size: cover;
+                background-size: cover;
+            }
+            .right{
+                width: 50%;
+                height: 150px;
+                background-color: #F6AC2B;
+                padding: 15px;
+                box-sizing: border-box;
+                h2{
+                    font-size: 14px;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    color: white;
+                }
+                tr{
+                    color: #ffffff;
+                    td{
+                        padding-top: 8px;
+                        font-size:12px;
+                    }
+                    td:nth-child(2){
+                        div{
+                            width: 80px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .guide-wrapper {
+        .guide-content {
+            width: 95%;
+            margin: 0 auto;
+            background-color: #F6AC2B;
+            padding: 25px;
+            .pic{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .open {
+                padding-top: 8px;
+                line-height: 24px;
+                color: #ffffff;
+                span {
+                    margin-right: 5px;
+                    width: 12px;
+                    height: 12px;
+                    display: inline-block;
+                    background: url(../images/Visit_icon1.png);
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+//数字文物
+.digital{
+    width: 100%;
+    height: 72px;
+    background: url("../uploadfiles/Digital_artifacts.jpg")no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    h2{
+        padding-top: 20px;
+        font-size:14px;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+    }
+    .view{
+        width: 52px;
+        margin: 0 auto;
+        color:rgba(255,255,255,1);
+    }
+}
+

@@ -1,0 +1,164 @@
+.bannerSwiper .swiper-slide {
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .bannerSwiper .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .bannerSwiper .swiper-slide div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat; }
+.bannerSwiper .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 20px; }
+  .bannerSwiper .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 12px; }
+.bannerSwiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity: 1; }
+.bannerSwiper .swiper-pagination-bullet-active {
+  background: white; }
+
+.collection .collection-body .view {
+  color: #389c38; }
+.collection .collection-body .h1-title b {
+  background: #389c38; }
+.collection .gallery-top {
+  width: 95%;
+  margin: 0 auto; }
+  .collection .gallery-top .swiper-slide div.bgimg {
+    height: 190px;
+    width: 100%;
+    z-index: 1;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat; }
+  .collection .gallery-top .swiper-slide .right {
+    width: 100%;
+    box-sizing: border-box; }
+    .collection .gallery-top .swiper-slide .right h2 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #333333;
+      text-align: justify;
+      padding-top: 10px; }
+    .collection .gallery-top .swiper-slide .right .text {
+      font-size: 13px;
+      font-weight: 400;
+      color: #999999;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical; }
+  .collection .gallery-top .swiper-button-next, .collection .gallery-top .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    top: 221px; }
+  .collection .gallery-top .swiper-button-prev {
+    background-image: url(../images/Collection_perv.png);
+    left: auto;
+    right: 25px; }
+  .collection .gallery-top .swiper-button-next {
+    left: auto;
+    right: 0;
+    background-image: url(../images/Collection_next.png); }
+
+.activeAndGuide {
+  flex-wrap: nowrap;
+  flex-direction: column; }
+  .activeAndGuide .h1-title b {
+    background: #f6ac2b; }
+  .activeAndGuide .view {
+    color: #F6AC2B; }
+  .activeAndGuide .activeSwiperWra .swiper-pagination-bullets {
+    text-align: right;
+    padding-right: 25px;
+    bottom: 3px; }
+  .activeAndGuide .activeSwiperWra .swiper-pagination-bullet-active {
+    background: #ffffff; }
+  .activeAndGuide .activeSwiperWra .activeSwiper {
+    width: 95%;
+    margin: 0 auto;
+    height: 150px; }
+  .activeAndGuide .activeSwiperWra .active-wrapper .left {
+    width: 50%;
+    height: 150px;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  .activeAndGuide .activeSwiperWra .active-wrapper .right {
+    width: 50%;
+    height: 150px;
+    background-color: #F6AC2B;
+    padding: 15px;
+    box-sizing: border-box; }
+    .activeAndGuide .activeSwiperWra .active-wrapper .right h2 {
+      font-size: 14px;
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      color: white; }
+    .activeAndGuide .activeSwiperWra .active-wrapper .right tr {
+      color: #ffffff; }
+      .activeAndGuide .activeSwiperWra .active-wrapper .right tr td {
+        padding-top: 8px;
+        font-size: 12px; }
+      .activeAndGuide .activeSwiperWra .active-wrapper .right tr td:nth-child(2) div {
+        width: 80px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; }
+  .activeAndGuide .guide-wrapper .guide-content {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #F6AC2B;
+    padding: 25px; }
+    .activeAndGuide .guide-wrapper .guide-content .pic {
+      width: 100%; }
+      .activeAndGuide .guide-wrapper .guide-content .pic img {
+        width: 100%; }
+    .activeAndGuide .guide-wrapper .guide-content .open {
+      padding-top: 8px;
+      line-height: 24px;
+      color: #ffffff; }
+      .activeAndGuide .guide-wrapper .guide-content .open span {
+        margin-right: 5px;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        background: url(../images/Visit_icon1.png); }
+      .activeAndGuide .guide-wrapper .guide-content .open p {
+        font-size: 12px; }
+
+.digital {
+  width: 100%;
+  height: 72px;
+  background: url("../uploadfiles/Digital_artifacts.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  margin-top: 20px; }
+  .digital h2 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white; }
+  .digital .view {
+    width: 52px;
+    margin: 0 auto;
+    color: white; }
+
+/*# sourceMappingURL=index.css.map */

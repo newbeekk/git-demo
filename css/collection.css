@@ -1,0 +1,167 @@
+.banner {
+  background: url("../uploadfiles/Column_banner4.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/*.paginations {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pagina {
+        margin-right: 5px;
+    }
+    .num-pagination {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        &.active {
+            background: #F6AC2B;
+        }
+    }
+    .pagination {
+        width: 69px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+    }
+}*/
+.collection-search {
+  margin-top: 15px;
+  padding: 0 15px; }
+  .collection-search #search-form input {
+    width: 203px;
+    height: 31px;
+    background: #f9f9f9;
+    border: 1px solid #999999;
+    padding: 0 5px;
+    outline: none; }
+  .collection-search #search-form button {
+    cursor: pointer;
+    width: 44px;
+    height: 31px;
+    background: #f6ac2b;
+    outline: none;
+    border: none;
+    color: #fff; }
+  .collection-search .select-item {
+    margin-bottom: 30px;
+    padding: 10px 10px 0;
+    margin-top: 10px;
+    border: 1px solid #999999; }
+    .collection-search .select-item ul {
+      overflow: hidden;
+      margin-bottom: 20px; }
+      .collection-search .select-item ul li {
+        float: left;
+        font-size: 14px;
+        color: #999999;
+        line-height: 22px;
+        padding-right: 20px; }
+        .collection-search .select-item ul li.title {
+          padding-right: 5px;
+          color: #F6AC2B; }
+  .collection-search .exhibition-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; }
+    .collection-search .exhibition-body .digital-exhi {
+      width: calc((100% - 20px)/2);
+      margin: 0 20px 10px 0; }
+      .collection-search .exhibition-body .digital-exhi:nth-child(2n) {
+        margin-right: 0; }
+      .collection-search .exhibition-body .digital-exhi .pic {
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding-bottom: 100%; }
+        .collection-search .exhibition-body .digital-exhi .pic img {
+          position: absolute;
+          width: 100%;
+          height: 100%; }
+      .collection-search .exhibition-body .digital-exhi .intro {
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #333333; }
+
+/*.collection-zj{
+    padding-top: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background:rgba(238,238,238,1);
+    h1{
+        font-size:16px;
+        text-align: center;
+        padding: 10px 0 10px;
+        color: #333;
+        line-height:22px;
+    }
+    #zj-form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        label{
+            font-size:14px;
+            color:rgba(153,153,153,1);
+            line-height:22px;
+        }
+        input,select{
+            width: 100%;
+            padding: 5px;
+        }
+        textarea{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+            padding: 5px;
+            border-color: rgba(153, 153, 153, 1);
+        }
+        #update-img{
+            width: 772px;
+        }
+        #userName,#userPhone{
+            width: 342px;
+            margin-top: 20px;
+        }
+    }
+    .btns{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+        button.submit{
+            width:78px;
+            height:31px;
+            background:rgba(246,172,43,1);
+            color: #ffffff;
+        }
+        button.cansle{
+            width:78px;
+            height:31px;
+            background:rgba(153,153,153,1);
+            color: #ffffff;
+        }
+    }
+}*/
+
+/*# sourceMappingURL=collection.css.map */

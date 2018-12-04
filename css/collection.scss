@@ -1,0 +1,187 @@
+
+.banner {
+    background: url("../uploadfiles/Column_banner4.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+//翻页
+/*.paginations {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pagina {
+        margin-right: 5px;
+    }
+    .num-pagination {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        &.active {
+            background: #F6AC2B;
+        }
+    }
+    .pagination {
+        width: 69px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+    }
+}*/
+//藏品检索
+
+.collection-search{
+    margin-top: 15px;
+    padding: 0 15px;
+    #search-form{
+        input{
+            width:203px;
+            height:31px;
+            background:rgba(249,249,249,1);
+            border:1px solid #999999;
+            padding: 0 5px;
+            outline: none;
+        }
+        button{
+            cursor: pointer;
+            width:44px;
+            height:31px;
+            background:rgba(246,172,43,1);
+            outline: none;
+            border:none;
+            color: #fff;
+        }
+    }
+    .select-item{
+        margin-bottom: 30px;
+        padding: 10px 10px 0;
+        margin-top: 10px;
+        border:1px solid rgba(153, 153, 153, 1);
+        ul{
+            overflow: hidden;
+            margin-bottom: 20px;
+            li{
+                float: left;
+                font-size:14px;
+                color:rgba(153,153,153,1);
+                line-height:22px;
+                padding-right: 20px;
+                &.title{
+                    padding-right: 5px;
+                    color: #F6AC2B;
+                }
+            }
+        }
+    }
+    .exhibition-body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        .digital-exhi {
+            width: calc((100% - 20px)/2);
+            margin: 0 20px 10px 0;
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+            .pic {
+                width: 100%;
+                position: relative;
+                height: 0;
+                padding-bottom: 100%;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .intro {
+                text-align: center;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                font-size:14px;
+                color:rgba(51,51,51,1);
+            }
+        }
+    }
+}
+
+//藏品征集
+/*.collection-zj{
+    padding-top: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background:rgba(238,238,238,1);
+    h1{
+        font-size:16px;
+        text-align: center;
+        padding: 10px 0 10px;
+        color: #333;
+        line-height:22px;
+    }
+    #zj-form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        label{
+            font-size:14px;
+            color:rgba(153,153,153,1);
+            line-height:22px;
+        }
+        input,select{
+            width: 100%;
+            padding: 5px;
+        }
+        textarea{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+            padding: 5px;
+            border-color: rgba(153, 153, 153, 1);
+        }
+        #update-img{
+            width: 772px;
+        }
+        #userName,#userPhone{
+            width: 342px;
+            margin-top: 20px;
+        }
+    }
+    .btns{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+        button.submit{
+            width:78px;
+            height:31px;
+            background:rgba(246,172,43,1);
+            color: #ffffff;
+        }
+        button.cansle{
+            width:78px;
+            height:31px;
+            background:rgba(153,153,153,1);
+            color: #ffffff;
+        }
+    }
+}*/
+
+

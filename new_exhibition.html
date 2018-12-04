@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/digital_ww_detail.css">
+    <title>新展预告</title>
+</head>
+<body>
+<div id="head"></div>
+
+<!--二级导航-->
+<div class="sup_nav_wrapper">
+    <ul class="sup_nav flexCls">
+        <li onclick="show(this)" class="active">陈列展览</li>
+        <li onclick="show(this)">数字展览</li>
+        <li onclick="show(this)">数字文物</li>
+        <li onclick="show(this)">展览回顾</li>
+    </ul>
+</div>
+<div class="title-wrapper">
+    <h1 class="h1-title"><b></b>新展预告</h1>
+</div>
+<div class="digital_ww_wrapper">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="bgimg" style="background-image: url('uploadfiles/Exhibition_img1.jpg');"></div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="bgimg" style="background-image: url('uploadfiles/Collection_img1.jpg');"></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <!--  <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>-->
+    </div>
+    <div class="intro">
+        <div class="title">展览介绍</div>
+        <div class="text">
+            木质胎，用“合题”法制作，即多块木板在尽端处斗合而成。整盒由盒身、浅盘和盖三部分组成，盒身有子口，口部套一浅盘。内髹黑漆，外髹朱漆为地，细钩纤皴戗金为纹。
+        </div>
+        <div class="text">
+            盖面戗金刻画一幅人物风俗画：一老翁自山间行来，头束发髻，袒腹露胸，肩荷木杖，杖头挂钱一串；远处山坡旁一茅屋酒家隐约可见。画面平远开阔，意境清逸，犹如一幅世外桃源写意画，内容取自《晋书•阮修传》：“阮修常步行，以百钱挂杖头，至酒店便独酣畅”，与史料记载相吻合。人物栩栩如生，动中取静，充满浪漫生活气息。
+        </div>
+        <div class="text">
+            盒身和盒盖四周立墙正面戗刻牡丹一枝，背面为单枝芍药，两旁立墙一侧为栀子，另侧刻单枝山茶。牡丹、栀子、芍药、山茶分别代表“一年景”四季花卉。画面留白较多，在朱漆的衬托下，金黄色花卉清新雅致。
+        </div>
+        <div class="text">盒盖内侧朱漆书写“丁酉温州五马锺念二郎上牢”铭文。</div>
+        <div class="text">该盒出土时，内装一对漆器小粉盒，说明它是古代妇女用来盛装脂粉的器具。</div>
+        <div class="text">
+            《宋史》卷四一九《薛极传》载，薛极中词科，为大理评事，曾通判温州，知广德军，累官寻知枢密院事兼参知政事，封毗陵郡公，以观文殿大学士知绍兴府兼浙东安抚使，端平元年（1234年）卒。5号墓主可能是与薛极有关的女性亲属，卒年在南宋嘉熙丁酉年（1237）之后，早于4号墓主卒年。因此，南宋戗金庭园仕女消夏图银扣莲瓣形朱漆奁和南宋戗金沽酒图长方形朱漆盒应是我国目前已知的戗金漆器中时代最早、保存最为完整并带有款识的漆制工艺品。
+        </div>
+
+    </div>
+</div>
+
+<div id="foot"></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    function show(e) {
+        let $liIndex = $(e).index();
+        window.location.href = 'exhibition.html' + '?whichIndex=' + $liIndex
+    }
+
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: true,
+        },
+        speed: 800,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    })
+</script>
+</body>
+</html>

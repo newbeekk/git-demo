@@ -1,0 +1,276 @@
+.banner {
+  background: url("../uploadfiles/Column_banner3.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.view {
+  color: #F6AC2B !important; }
+
+.h1-title {
+  font-size: 16px;
+  font-weight: 400; }
+  .h1-title b {
+    background: #F6AC2B; }
+
+/*.paginations {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pagina {
+        margin-right: 5px;
+    }
+    .num-pagination {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        &.active {
+            background: #F6AC2B;
+        }
+    }
+    .pagination {
+        width: 69px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+    }
+}*/
+.exhibition .title-wrapper, .exhibition .exhibition-body {
+  margin: 0 auto;
+  padding: 5px; }
+.exhibition .exhibition-item {
+  width: 100%; }
+.exhibition .exhibition-item:nth-child(2n) {
+  background: #f9f9f9; }
+.exhibition .exhibition-body {
+  padding: 0 0 10px 0; }
+  .exhibition .exhibition-body .pic {
+    position: relative;
+    width: 100%;
+    height: 190px; }
+    .exhibition .exhibition-body .pic img {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+  .exhibition .exhibition-body .content {
+    width: 100%;
+    padding: 0 15px;
+    background: #eeeeee; }
+    .exhibition .exhibition-body .content h1 {
+      width: 100%;
+      font-size: 16px;
+      font-weight: 400;
+      color: #333333;
+      line-height: 1.4;
+      padding-top: 5px; }
+    .exhibition .exhibition-body .content .intro {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      line-height: 24px;
+      margin: 6px 0; }
+    .exhibition .exhibition-body .content .addr, .exhibition .exhibition-body .content .show-time {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      line-height: 1.6;
+      padding-bottom: 3px; }
+  .exhibition .exhibition-body .review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 20px 15px; }
+    .exhibition .exhibition-body .review .pic {
+      width: 35%;
+      height: 110px;
+      display: inline-block; }
+      .exhibition .exhibition-body .review .pic img {
+        width: 100%; }
+    .exhibition .exhibition-body .review .content {
+      width: 65%;
+      height: 110px;
+      background: #eeeeee; }
+      .exhibition .exhibition-body .review .content .addr, .exhibition .exhibition-body .review .content .show-time {
+        font-size: 12px;
+        font-weight: 400;
+        color: #999;
+        line-height: 1.4; }
+  .exhibition .exhibition-body .digital-item {
+    width: calc((100% - 50px) / 2);
+    margin: 0 20px 15px 15px; }
+    .exhibition .exhibition-body .digital-item:nth-child(2n) {
+      margin: 0 15px 15px 0; }
+    .exhibition .exhibition-body .digital-item .pic {
+      width: 100%;
+      height: 75px; }
+    .exhibition .exhibition-body .digital-item .intro {
+      height: 30px;
+      line-height: 30px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #333333;
+      text-align: center; }
+  .exhibition .exhibition-body .digital-exhi {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    position: relative;
+    padding: 0 15px; }
+    .exhibition .exhibition-body .digital-exhi .pic {
+      width: 100%;
+      height: 200px; }
+    .exhibition .exhibition-body .digital-exhi .intro {
+      padding: 0 5px;
+      width: calc(100% - 30px);
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+      height: 40px;
+      line-height: 40px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #ffffff;
+      text-align: left; }
+      .exhibition .exhibition-body .digital-exhi .intro a {
+        text-decoration: underline;
+        float: right;
+        color: #ffffff;
+        margin-right: 5px; }
+        .exhibition .exhibition-body .digital-exhi .intro a:hover {
+          text-decoration: none; }
+
+.digital-exhibition .digital-exhibition-items {
+  margin-top: 15px;
+  flex-wrap: wrap; }
+.digital-exhibition .digital-exhibition-item {
+  width: calc((100% - 50px) / 2);
+  margin-left: 15px;
+  margin-bottom: 15px; }
+  .digital-exhibition .digital-exhibition-item:nth-child(2n) {
+    margin-right: 15px;
+    margin-left: 0; }
+  .digital-exhibition .digital-exhibition-item .digital-pic {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%; }
+    .digital-exhibition .digital-exhibition-item .digital-pic img {
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+  .digital-exhibition .digital-exhibition-item .bottom-content {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-bottom: 10px; }
+    .digital-exhibition .digital-exhibition-item .bottom-content .h5-title {
+      padding: 5px;
+      text-align: center; }
+      .digital-exhibition .digital-exhibition-item .bottom-content .h5-title:hover {
+        text-decoration: underline; }
+    .digital-exhibition .digital-exhibition-item .bottom-content .normal_text {
+      font-size: 13px;
+      padding: 0 5px;
+      line-height: 1.4;
+      text-align: justify; }
+
+.digital-ww .digital-ww-items {
+  margin-top: 15px; }
+.digital-ww .digital-ww-item {
+  width: 100%;
+  margin-bottom: 15px; }
+  .digital-ww .digital-ww-item .digital-pic {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative; }
+    .digital-ww .digital-ww-item .digital-pic img {
+      width: 100%;
+      position: absolute;
+      height: 100%; }
+  .digital-ww .digital-ww-item .bottom-content {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-bottom: 10px; }
+    .digital-ww .digital-ww-item .bottom-content .h5-title {
+      padding: 10px 5px;
+      text-align: center; }
+      .digital-ww .digital-ww-item .bottom-content .h5-title:hover {
+        text-decoration: underline; }
+    .digital-ww .digital-ww-item .bottom-content .normal_text {
+      font-size: 14px;
+      padding: 0 10px;
+      line-height: 22px;
+      text-align: justify;
+      text-indent: 28px; }
+
+.exhibition-huigu {
+  margin-top: 15px; }
+  .exhibition-huigu .exhibition-body {
+    padding: 0 0 10px 0; }
+    .exhibition-huigu .exhibition-body .pic {
+      position: relative;
+      width: 100%;
+      height: 190px; }
+      .exhibition-huigu .exhibition-body .pic img {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+    .exhibition-huigu .exhibition-body .content {
+      width: 100%;
+      padding: 0 15px;
+      background: #eeeeee; }
+      .exhibition-huigu .exhibition-body .content h1 {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 1.4;
+        padding-top: 5px; }
+      .exhibition-huigu .exhibition-body .content .intro {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 24px;
+        margin: 6px 0; }
+      .exhibition-huigu .exhibition-body .content .addr, .exhibition-huigu .exhibition-body .content .show-time {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 1.6;
+        padding-bottom: 3px; }
+    .exhibition-huigu .exhibition-body .review {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0 15px 20px 15px; }
+      .exhibition-huigu .exhibition-body .review .pic {
+        width: 35%;
+        height: 110px;
+        display: inline-block; }
+        .exhibition-huigu .exhibition-body .review .pic img {
+          width: 100%; }
+      .exhibition-huigu .exhibition-body .review .content {
+        width: 65%;
+        height: 110px;
+        background: #eeeeee; }
+        .exhibition-huigu .exhibition-body .review .content .addr, .exhibition-huigu .exhibition-body .review .content .show-time {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999;
+          line-height: 1.4; }
+
+/*# sourceMappingURL=exhibition.css.map */

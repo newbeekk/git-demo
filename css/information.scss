@@ -1,0 +1,274 @@
+//新闻资讯
+.news-lists {
+    text-align: center;
+    margin-bottom: 15px;
+    li {
+        padding: 0 15px;
+        margin-top: 10px;
+        & > div {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        &:nth-child(even) {
+            background: rgba(245, 245, 245, 1);
+        }
+    }
+    .left-pic {
+        width: 40%;
+        height: 100px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .right-content {
+        width: 60%;
+        box-sizing: border-box;
+        padding-left: 10px;
+        .title-wrapper {
+            width: 100%;
+            font-size: 13px;
+        }
+        .text {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            line-height: 1.4;
+            text-align: justify;
+            margin: 10px 0;
+        }
+        .view {
+            color: #F6AC2B;
+            text-align: left;
+        }
+    }
+}
+
+//组织机构
+.organization {
+    display: none;
+    background: #f5f5f5;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    h1 {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        padding: 20px 0 5px 0;
+    }
+    .tags {
+        padding-top: 20px;
+    }
+    .tag {
+        border-top: 1px dashed #999999;
+        h3 {
+            cursor: pointer;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            span {
+                display: inline-block;
+                border-style: solid;
+                border-width: 10px 10px 10px 10px;
+                border-color: transparent transparent transparent #F6AC2B;
+                width: 0px;
+                height: 0px;
+            }
+            b {
+                display: inline-block;
+                font-size: 14px;
+                color: rgba(51, 51, 51, 1);
+            }
+        }
+        .job_intro {
+            width: 100%;
+            background: rgba(246, 172, 43, 1);
+            box-shadow: 0px 5px 18px 0px rgba(1, 0, 0, 0.16);
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            line-height: 25px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .job_position {
+            & > div {
+                padding-bottom: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                & > div {
+                    text-align: left;
+                    font-size: 12px;
+                    &:nth-child(1) {
+                        span {
+                            color: #F6AC2B;
+                        }
+                        width: 25%;
+                    }
+                    &:nth-child(2) {
+                        text-align: center;
+                        width: 17%;
+                    }
+                }
+            }
+        }
+    }
+    .contact {
+        margin-top: 20px;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        li {
+            margin-bottom: 15px;
+            font-size: 13px;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 22px;
+            span {
+                display: inline-block;
+                width: 50px;
+                &:nth-child(1) {
+                    float: left;
+                }
+                &:nth-child(2) {
+                    width: calc(100% - 50px);
+                }
+            }
+        }
+    }
+}
+
+//通知公告
+.notice-bulletin {
+    padding: 15px;
+    display: none;
+    li {
+        border-bottom: 1px dashed #999;
+        margin-bottom: 30px;
+    }
+    .title {
+        width: 100%;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 1);
+        /*display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;*/
+        i {
+
+        }
+        span {
+            display: inline-block;
+            font-size: 12px;
+            color: rgba(153, 153, 153, 1);
+            &:before {
+                content: url("../images/Column_news_icon.png");
+                width: 10px;
+                height: 10px;
+                vertical-align: sub;
+                margin-right: 5px;
+            }
+        }
+        b {
+            width: 100%;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 1);
+            line-height: 24px;
+            &:before {
+                width: 10px;
+                height: 10px;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: #F6AC2B;
+            }
+        }
+    }
+    .content {
+        font-size: 13px;
+        color: rgba(153, 153, 153, 1);
+        line-height: 1.4;
+        margin: 5px 0 10px;
+        a {
+            color: #F6AC2B;
+        }
+    }
+}
+
+//图片新闻
+.pictrue-news {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+//大事记
+.memorabilia {
+    position: relative;
+    padding: 15px 15px 15px 8px;
+    .time-line {
+        position: absolute;
+        left: 15px;
+        width: 1px;
+        height: 0px;
+        background-color: #000000;
+        opacity: .15;
+    }
+    li {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .circle {
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            border-radius: 50%;
+            border: 2px solid #F6AC2B;
+            .midCirlce {
+                margin-top: 3px;
+                margin-left: 3px;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: #F6AC2B;
+            }
+        }
+        .content {
+            width: calc(100% - 25px);
+            background: rgba(238, 238, 238, 1);
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            line-height: 20px;
+            padding: 15px;
+            cursor: pointer;
+            h1 {
+                font-size: 18px;
+                font-family: MicrosoftYaHei-Bold;
+                font-weight: bold;
+                font-style: italic;
+                color: rgba(246, 172, 43, 1);
+                line-height: 18px;
+                margin-bottom: 10px;
+            }
+            .img {
+                img {
+                    margin-top: 15px;
+                    margin-right: 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

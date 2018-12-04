@@ -1,0 +1,76 @@
+.banner {
+    background: url("../uploadfiles/Column_banner3.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.h1-title b{
+    background: #F6AC2B;
+}
+.digital_ww_wrapper{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    .intro{
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .title{
+        font-size:16px;
+        color:rgba(51,51,51,1);
+        line-height:1.4;
+        border-bottom: 1px solid #E9E8EA;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+    .text{
+        margin-top: 10px;
+        font-size:14px;
+        color:rgba(153,153,153,1);
+        line-height: 1.4;
+    }
+}
+
+.swiper-slide {
+    overflow: hidden;
+    div.bgimg {
+        height: 170px;
+        width: 100%;
+        z-index: 1;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+/*
+.swiper-button-next, .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+}
+.swiper-button-prev {
+    background-image: url(../images/Collection_perv.png);
+    left: auto;
+    right: 25px;
+}
+.swiper-button-next {
+    left: auto;
+    right: 0;
+    background-image: url(../images/Collection_next.png);
+}*/
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    .swiper-pagination-bullet {
+        margin: 0 6px;
+    }
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background: rgba(255, 255, 255, 1);
+}

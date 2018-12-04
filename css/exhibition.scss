@@ -1,0 +1,352 @@
+.banner {
+    background: url("../uploadfiles/Column_banner3.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.view {
+    color: #F6AC2B !important;
+}
+
+.h1-title {
+    font-size: 16px;
+    font-weight: 400;
+    b {
+        background: #F6AC2B;
+    }
+}
+
+//翻页
+/*.paginations {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pagina {
+        margin-right: 5px;
+    }
+    .num-pagination {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        &.active {
+            background: #F6AC2B;
+        }
+    }
+    .pagination {
+        width: 69px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(233, 233, 233, 1);
+        border-radius: 3px;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+    }
+}*/
+
+//陈列展览
+
+.exhibition {
+    .title-wrapper, .exhibition-body {
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .exhibition-item {
+        width: 100%;
+    }
+    .exhibition-item:nth-child(2n) {
+        background: rgba(249, 249, 249, 1);
+    }
+    .exhibition-body {
+        padding: 0 0 10px 0;
+        //当前展览以及展览回顾开始
+        .pic {
+            position: relative;
+            width: 100%;
+            height: 190px;
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .content {
+            width: 100%;
+            padding: 0 15px;
+            background: rgba(238, 238, 238, 1);
+            h1 {
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                line-height: 1.4;
+                padding-top: 5px;
+            }
+            .intro {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(153, 153, 153, 1);
+                line-height: 24px;
+                margin: 6px 0;
+            }
+            .addr, .show-time {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(153, 153, 153, 1);
+                line-height: 1.6;
+                padding-bottom: 3px;
+            }
+        }
+        .review {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 0 15px 20px 15px;
+            .pic {
+                width: 35%;
+                height: 110px;
+                display: inline-block;
+                img {
+                    width: 100%;
+                }
+            }
+            .content {
+                width: 65%;
+                height: 110px;
+                background: rgba(238, 238, 238, 1);
+                .addr, .show-time {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #999;
+                    line-height: 1.4;
+                }
+            }
+        }
+        //当前展览以及展览回顾结束
+        //数字文物开始
+        .digital-item {
+            width: calc((100% - 50px) / 2);
+            margin: 0 20px 15px 15px;
+            &:nth-child(2n) {
+                margin: 0 15px 15px 0;
+            }
+            .pic {
+                width: 100%;
+                height: 75px;
+            }
+            .intro {
+                height: 30px;
+                line-height: 30px;
+                font-size: 15px;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                text-align: center;
+            }
+        }
+        //数字文物结束
+        //数字展览开始
+        .digital-exhi {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 15px;
+            position: relative;
+            padding: 0 15px;
+            .pic {
+                width: 100%;
+                height: 200px;
+            }
+            .intro {
+                padding: 0 5px;
+                width: calc(100% - 30px);
+                background: rgba(0, 0, 0, .5);
+                position: absolute;
+                left: 15px;
+                bottom: 0;
+                height: 40px;
+                line-height: 40px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #ffffff;
+                text-align: left;
+                a {
+                    text-decoration: underline;
+                    float: right;
+                    color: #ffffff;
+                    margin-right: 5px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        //数字展览结束
+    }
+}
+
+//数字展览模块
+.digital-exhibition {
+    .digital-exhibition-items {
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+    .digital-exhibition-item {
+        width: calc((100% - 50px) / 2);
+        margin-left: 15px;
+        margin-bottom: 15px;
+        &:nth-child(2n) {
+            margin-right: 15px;
+            margin-left: 0;
+        }
+        .digital-pic {
+            position: relative;
+            height: 0;
+            width: 100%;
+            padding-bottom: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+        }
+        .bottom-content {
+            width: 100%;
+            background-color: #f5f5f5;
+            padding-bottom: 10px;
+            .h5-title {
+                padding: 5px;
+                text-align: center;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .normal_text {
+                font-size: 13px;
+                padding: 0 5px;
+                line-height: 1.4;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+//数字文物模块
+.digital-ww {
+    .digital-ww-items {
+        margin-top: 15px;
+    }
+    .digital-ww-item {
+        width: 100%;
+        margin-bottom: 15px;
+        .digital-pic {
+            width: 100%;
+            height: 0;
+            padding-bottom: 50%;
+            position: relative;
+            img {
+                width: 100%;
+                position: absolute;
+                height: 100%;
+            }
+        }
+        .bottom-content {
+            width: 100%;
+            background-color: #f5f5f5;
+            padding-bottom: 10px;
+            .h5-title {
+                padding: 10px 5px;
+                text-align: center;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .normal_text {
+                font-size: 14px;
+                padding: 0 10px;
+                line-height: 22px;
+                text-align: justify;
+                text-indent: 28px;
+            }
+        }
+    }
+}
+
+//展览回顾模块
+.exhibition-huigu {
+    margin-top: 15px;
+    .exhibition-body {
+        padding: 0 0 10px 0;
+        //当前展览以及展览回顾开始
+        .pic {
+            position: relative;
+            width: 100%;
+            height: 190px;
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .content {
+            width: 100%;
+            padding: 0 15px;
+            background: rgba(238, 238, 238, 1);
+            h1 {
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                line-height: 1.4;
+                padding-top: 5px;
+            }
+            .intro {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(153, 153, 153, 1);
+                line-height: 24px;
+                margin: 6px 0;
+            }
+            .addr, .show-time {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(153, 153, 153, 1);
+                line-height: 1.6;
+                padding-bottom: 3px;
+            }
+        }
+        .review {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 0 15px 20px 15px;
+            .pic {
+                width: 35%;
+                height: 110px;
+                display: inline-block;
+                img {
+                    width: 100%;
+                }
+            }
+            .content {
+                width: 65%;
+                height: 110px;
+                background: rgba(238, 238, 238, 1);
+                .addr, .show-time {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #999;
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
+}
